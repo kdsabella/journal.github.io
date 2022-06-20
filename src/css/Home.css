@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+main .thoughts {
+    padding: 10px 30px;
+    width: 40%;
+    border: 1px solid #839AA8;
+    width: 50%;
+    margin: 5px;
+}
+
+main .task {
+    padding: 10px 30px;
+    width: 40%;
+    border: 1px solid #839AA8;
+    width: 50%;
+    margin: 5px;
+}
+
+form .formtask {
+    display: flex;
+    width: 100vw;
+    gap: 20px;
+}
+
+form .formthoughts {
+    display: flex;
+    width: 100vw;
+    gap: 20px;
+}
+
+.firstrow {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+}
+
+.thirdrow {
+    display: flex;
+    justify-content: end;
+    margin: 10px 0;
+}
